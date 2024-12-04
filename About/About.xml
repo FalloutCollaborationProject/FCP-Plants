@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+    <packageId>Rick.FCP.Plants</packageId>
+    <author>Rick</author>
+    <name>FCP - Plants</name>
+    <description>The Fallout Collaboration Project Presents: Plants, a complete plantn and nature mod adding in all the plants of the wasteland.</description>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+    <modDependencies>
+        <li>
+            <packageId>Rick.FCP.Core.Tools</packageId>
+            <displayName>FCP - Tools</displayName>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>Rick.FCP.Core.Tools</li>
+    </loadAfter>
+
+</ModMetaData>
