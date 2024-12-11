@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Plants __________-->
+
+    <!--_____ Arid/Arid Wasteland _____-->
+
+    <!--___ Wild ___-->
+
+    <!-- Banana Yucca -->
+
+    <ThingDef ParentName="PlantBase">
+        <defName>FCP_Plant_Banana_Yucca</defName>
+        <label>Banana Yucca</label>
+        <description>.</description>
+        <statBases>
+            <MaxHitPoints>120</MaxHitPoints>
+            <Nutrition>0.45</Nutrition>
+        </statBases>
+        <graphicData>
+            <texPath>Things/Plants/BananaYucca/FCP_Banana_Yucca_Plant_A</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+            <shadowData>
+                <volume>(0.2, 0.6, 0.2)</volume>
+            </shadowData>
+        </graphicData>
+        <selectable>true</selectable>
+        <neverMultiSelect>false</neverMultiSelect>
+        <fillPercent>0.20</fillPercent>
+        <pathCost>32</pathCost>
+        <ingestible />
+        <plant>
+            <fertilitySensitivity>0.5</fertilitySensitivity>
+            <growDays>6</growDays>
+            <harvestTag>Standard</harvestTag>
+            <harvestAfterGrowth>0.30</harvestAfterGrowth>
+            <harvestedThingDef>FCP_Raw_Food_Banana_Yucca</harvestedThingDef>
+            <harvestYield>15</harvestYield>
+            <harvestWork>300</harvestWork>
+            <visualSizeRange>0.9~1.4</visualSizeRange>
+            <topWindExposure>0.3</topWindExposure>
+            <wildClusterRadius>5</wildClusterRadius>
+            <wildClusterWeight>310</wildClusterWeight>
+            <wildOrder>2</wildOrder>
+            <purpose>Food</purpose>
+        </plant>
+    </ThingDef>
+
+    <!-- Barrel Cactus -->
+
+    <ThingDef ParentName="PlantBase">
+        <defName>FCP_Plant_Barrel_Cactus</defName>
+        <label>Barrel Cactus</label>
+        <description>.</description>
+        <statBases>
+            <MaxHitPoints>120</MaxHitPoints>
+            <Nutrition>0.15</Nutrition>
+        </statBases>
+        <graphicData>
+            <texPath>Things/Plants/BarrelCactus/FCP_Barrel_Cactus_Plant_A</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+            <shadowData>
+                <volume>(0.2, 0.6, 0.2)</volume>
+            </shadowData>
+        </graphicData>
+        <selectable>true</selectable>
+        <neverMultiSelect>false</neverMultiSelect>
+        <fillPercent>0.20</fillPercent>
+        <pathCost>32</pathCost>
+        <ingestible />
+        <plant>
+            <fertilitySensitivity>0.5</fertilitySensitivity>
+            <growDays>3</growDays>
+            <harvestTag>Standard</harvestTag>
+            <harvestAfterGrowth>0.30</harvestAfterGrowth>
+            <harvestedThingDef>FCP_Raw_Food_Barrel_Cactus</harvestedThingDef>
+            <harvestYield>6</harvestYield>
+            <harvestWork>100</harvestWork>
+            <visualSizeRange>0.9~1.4</visualSizeRange>
+            <topWindExposure>0.3</topWindExposure>
+            <wildClusterRadius>3</wildClusterRadius>
+            <wildClusterWeight>250</wildClusterWeight>
+            <wildOrder>2</wildOrder>
+            <purpose>Food</purpose>
+        </plant>
+    </ThingDef>
