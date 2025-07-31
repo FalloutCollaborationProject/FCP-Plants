@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Harvested Plants __________-->
+
+    <!-- Carrot -->
+
+    <ThingDef ParentName="RawFoodBase">
+        <defName>FCP_Raw_Carrot</defName>
+        <label>carrot</label>
+        <description>A sweet, nutritious root vegetable harvested from carrot plants. A staple food in the wasteland.</description>
+        <graphicData>
+            <texPath>Things/Plants/Carrot/FCP_Carrot_Raw</texPath>
+        </graphicData>
+        <statBases>
+            <Nutrition>0.25</Nutrition>
+        </statBases>
+    </ThingDef>
+
+    <!-- Cranberry -->
+
+    <ThingDef ParentName="RawFoodBase">
+        <defName>FCP_Raw_Cranberry</defName>
+        <label>cranberry</label>
+        <description>A tart, red berry harvested from cranberry plants. Used in preserves and survivor meals.</description>
+        <graphicData>
+            <texPath>Things/Plants/Cranberry/FCP_Cranberry_Raw</texPath>
+        </graphicData>
+        <statBases>
+            <Nutrition>0.18</Nutrition>
+        </statBases>
+    </ThingDef>
+
+    <!-- Gourd -->
+
+    <ThingDef ParentName="RawFoodBase">
+        <defName>FCP_Raw_Gourd</defName>
+        <label>gourd</label>
+        <description>A versatile vegetable harvested from gourd plants. Edible and useful as a container.</description>
+        <graphicData>
+            <texPath>Things/Plants/Gourd/FCP_Gourd_Raw</texPath>
+        </graphicData>
+        <statBases>
+            <Nutrition>0.22</Nutrition>
+        </statBases>
+    </ThingDef>
+
+    <!-- Jalapeno -->
+
+    <ThingDef ParentName="RawFoodBase">
+        <defName>FCP_Raw_Jalapeno</defName>
+        <label>jalapeno</label>
+        <description>A spicy pepper harvested from jalapeno plants. Adds heat to wasteland recipes.</description>
+        <graphicData>
+            <texPath>Things/Plants/Jalepeno/FCP_Jalapeno_Raw</texPath>
+        </graphicData>
+        <statBases>
+            <Nutrition>0.10</Nutrition>
+        </statBases>
+    </ThingDef>
+
+    <!-- Maize -->
+
+    <ThingDef ParentName="RawFoodBase">
+        <defName>FCP_Raw_Maize</defName>
+        <label>maize</label>
+        <description>Hearty ears of maize harvested from maize plants. A key ingredient in survivor meals.</description>
+        <graphicData>
+            <texPath>Things/Plants/Maize/FCP_Maize_Raw</texPath>
+        </graphicData>
+        <statBases>
+            <Nutrition>0.30</Nutrition>
+        </statBases>
+    </ThingDef>
+
+    <!-- Melon -->
+
+    <ThingDef ParentName="RawFoodBase">
+        <defName>FCP_Raw_Melon</defName>
+        <label>melon</label>
+        <description>A sweet, juicy fruit harvested from melon plants. Prized for its refreshing taste.</description>
+        <graphicData>
+            <texPath>Things/Plants/Melon/FCP_Melon_Raw</texPath>
+        </graphicData>
+        <statBases>
+            <Nutrition>0.20</Nutrition>
+        </statBases>
+    </ThingDef>
+
+    <!-- Mutfruit -->
+
+    <ThingDef ParentName="RawFoodBase">
+        <defName>FCP_Raw_Mutfruit</defName>
+        <label>mutfruit</label>
+        <description>A genetically modified fruit harvested from mutfruit trees. Sweet and tangy.</description>
+        <graphicData>
+            <texPath>Things/Plants/Mutfruit/FCP_Mutfruit_Raw</texPath>
+        </graphicData>
+        <statBases>
+            <Nutrition>0.28</Nutrition>
+        </statBases>
+    </ThingDef>
+
+    <!-- Razorgrain -->
+
+    <ThingDef ParentName="RawFoodBase">
+        <defName>FCP_Raw_Razorgrain</defName>
+        <label>razorgrain</label>
+        <description>Tough stalks and nutritious seeds harvested from razorgrain plants. Used for bread and porridge.</description>
+        <graphicData>
+            <texPath>Things/Plants/Razorgrain/FCP_Razorgrain_Raw</texPath>
+        </graphicData>
+        <statBases>
+            <Nutrition>0.22</Nutrition>
+        </statBases>
+    </ThingDef>
+
+    <!-- Siltbean -->
+
+    <ThingDef ParentName="RawFoodBase">
+        <defName>FCP_Raw_Siltbean</defName>
+        <label>siltbean</label>
+        <description>Protein-rich beans harvested from siltbean plants. Thrives in poor soil.</description>
+        <graphicData>
+            <texPath>Things/Plants/Siltbean/FCP_Silt_Bean_Raw</texPath>
+        </graphicData>
+        <statBases>
+            <Nutrition>0.20</Nutrition>
+        </statBases>
+    </ThingDef>
+
+    <!-- Tato -->
+
+    <ThingDef ParentName="RawFoodBase">
+        <defName>FCP_Raw_Tato</defName>
+        <label>tato</label>
+        <description>A hybrid tuber harvested from tato plants. Hearty and tangy.</description>
+        <graphicData>
+            <texPath>Things/Plants/Tato/FCP_Tato_Raw</texPath>
+        </graphicData>
+        <statBases>
+            <Nutrition>0.25</Nutrition>
+        </statBases>
+    </ThingDef>
+
+    <!-- Banana Yucca -->
+
+    <ThingDef ParentName="RawFoodBase">
+        <defName>FCP_Raw_Food_Banana_Yucca</defName>
+        <label>banana yucca fruit</label>
+        <description>Sweet, starchy fruit harvested from banana yucca plants. A staple for survival.</description>
+        <graphicData>
+            <texPath>Things/Plants/BananaYucca/FCP_Banana_Yucca_Fruit</texPath>
+        </graphicData>
+        <statBases>
+            <Nutrition>0.45</Nutrition>
+        </statBases>
+    </ThingDef>
+
+    <!-- Barrel Cactus -->
+
+    <ThingDef ParentName="RawFoodBase">
+        <defName>FCP_Raw_Food_Barrel_Cactus</defName>
+        <label>barrel cactus fruit</label>
+        <description>Edible fruit harvested from barrel cactus. Provides hydration and nutrition.</description>
+        <graphicData>
+            <texPath>Things/Plants/BarrelCactus/FCP_Barrel_Cactus_Fruit</texPath>
+        </graphicData>
+        <statBases>
+            <Nutrition>0.15</Nutrition>
+        </statBases>
+    </ThingDef>
+
+    <!-- Broc Flower -->
+
+    <ThingDef ParentName="RawFoodBase">
+        <defName>FCP_Raw_Broc_Flower</defName>
+        <label>broc flower</label>
+        <description>Medicinal flower harvested from broc flower plants. Used in healing powders.</description>
+        <graphicData>
+            <texPath>Things/Plants/BrocFlower/FCP_Broc_Flower_Raw</texPath>
+        </graphicData>
+        <statBases>
+            <Nutrition>0.05</Nutrition>
+        </statBases>
+    </ThingDef>
+
+    <!-- Buffalo Gourd -->
+
+    <ThingDef ParentName="RawFoodBase">
+        <defName>FCP_Raw_Buffalo_Gourd</defName>
+        <label>buffalo gourd</label>
+        <description>Seeds and flesh harvested from buffalo gourd plants. Edible in a pinch.</description>
+        <graphicData>
+            <texPath>Things/Plants/BuffaloGourds/FCP_Buffalo_Gourd_Raw</texPath>
+        </graphicData>
+        <statBases>
+            <Nutrition>0.10</Nutrition>
+        </statBases>
+    </ThingDef>
+
+    <!-- Carrot Flower -->
+
+    <ThingDef ParentName="RawFoodBase">
+        <defName>FCP_Raw_Carrot_Flower</defName>
+        <label>carrot flower</label>
+        <description>Delicate flower harvested from wild carrot plants. Used for propagation and as a rare treat.</description>
+        <graphicData>
+            <texPath>Things/Plants/Carrot_Flower/FCP_Carrot_Flower_Raw</texPath>
+        </graphicData>
+        <statBases>
+            <Nutrition>0.02</Nutrition>
+        </statBases>
+    </ThingDef>
+
+    <!-- Glowing Mushroom -->
+
+    <ThingDef ParentName="RawFoodBase">
+        <defName>FCP_Raw_Glowing_Mushroom</defName>
+        <label>glowing mushroom</label>
+        <description>Mutated fungus harvested from glowing mushroom plants. Emits a faint glow and may be mildly radioactive.</description>
+        <graphicData>
+            <texPath>Things/Plants/GlowingMushroom/FCP_Glowing_Mushroom_Raw</texPath>
+        </graphicData>
+        <statBases>
+            <Nutrition>0.08</Nutrition>
+        </statBases>
+    </ThingDef>
+
+    <!-- Honey Mesquite -->
+
+    <ThingDef ParentName="RawFoodBase">
+        <defName>FCP_Raw_Honey_Mesquite</defName>
+        <label>honey mesquite pod</label>
+        <description>Sweet pods harvested from honey mesquite shrubs. Used for food, fuel, and medicine.</description>
+        <graphicData>
+            <texPath>Things/Plants/HoneyMesquite/FCP_Honey_Mesquite_Pod</texPath>
+        </graphicData>
+        <statBases>
+            <Nutrition>0.12</Nutrition>
+        </statBases>
+    </ThingDef>
+
+    <!-- Mutated Fern -->
+
+    <ThingDef ParentName="RawFoodBase">
+        <defName>FCP_Raw_Mutated_Fern</defName>
+        <label>mutated fern frond</label>
+        <description>Tough fronds harvested from mutated fern plants. Sometimes used in makeshift remedies.</description>
+        <graphicData>
+            <texPath>Things/Plants/MutatedFern/FCP_Mutated_Fern_Raw</texPath>
+        </graphicData>
+        <statBases>
+            <Nutrition>0.06</Nutrition>
+        </statBases>
+    </ThingDef>
+
+    <!-- Nevada Agave -->
+
+    <ThingDef ParentName="RawFoodBase">
+        <defName>FCP_Raw_Nevada_Agave</defName>
+        <label>nevada agave</label>
+        <description>Sweet sap and fibrous leaves harvested from Nevada agave. Used for food, drink, and crafting.</description>
+        <graphicData>
+            <texPath>Things/Plants/NevadaAgave/FCP_Nevada_Agave_Raw</texPath>
+        </graphicData>
+        <statBases>
+            <Nutrition>0.14</Nutrition>
+        </statBases>
+    </ThingDef>
+
+    <!-- Prickly Pear Cactus -->
+
+    <ThingDef ParentName="RawFoodBase">
+        <defName>FCP_Raw_Prickly_Pear</defName>
+        <label>prickly pear</label>
+        <description>Edible pads and sweet fruit harvested from prickly pear cactus. Vital for desert dwellers.</description>
+        <graphicData>
+            <texPath>Things/Plants/PricklyPearCactus/FCP_Prickly_Pear_Raw</texPath>
+        </graphicData>
+        <statBases>
+            <Nutrition>0.16</Nutrition>
+        </statBases>
+    </ThingDef>
+
+    <!-- Tarberry -->
+
+    <ThingDef ParentName="RawFoodBase">
+        <defName>FCP_Raw_Tarberry</defName>
+        <label>tarberry</label>
+        <description>Mutated berry harvested from tarberry plants. Sweet and mildly radioactive.</description>
+        <graphicData>
+            <texPath>Things/Plants/Tarberry/FCP_Tarberry_Raw</texPath>
+        </graphicData>
+        <statBases>
+            <Nutrition>0.12</Nutrition>
+        </statBases>
+    </ThingDef>
+
+    <!-- Xander Root -->
+    
+    <ThingDef ParentName="RawFoodBase">
+        <defName>FCP_Raw_Xander_Root</defName>
+        <label>xander root</label>
+        <description>Gnarled root harvested from xander root plants. Highly valued for its medicinal properties.</description>
+        <graphicData>
+            <texPath>Things/Plants/XanderRoot/FCP_Xander_Root_Raw</texPath>
+        </graphicData>
+        <statBases>
+            <Nutrition>0.05</Nutrition>
+        </statBases>
+    </ThingDef>
+
+</Defs>
