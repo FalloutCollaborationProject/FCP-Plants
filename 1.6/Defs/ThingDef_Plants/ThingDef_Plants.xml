@@ -24,6 +24,10 @@
                 <volume>(0.1, 0.3, 0.1)</volume>
             </shadowData>
         </graphicData>
+        <immatureGraphicData>
+            <texPath>Things/Plants/Carrot/FCP_Carrot_Immature</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+        </immatureGraphicData>
         <selectable>true</selectable>
         <neverMultiSelect>false</neverMultiSelect>
         <fillPercent>0.10</fillPercent>
@@ -60,6 +64,10 @@
                 <volume>(0.08, 0.25, 0.08)</volume>
             </shadowData>
         </graphicData>
+        <immatureGraphicData>
+            <texPath>Things/Plants/Cranberry/FCP_Cranberry_Immature</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+        </immatureGraphicData>
         <selectable>true</selectable>
         <neverMultiSelect>false</neverMultiSelect>
         <fillPercent>0.08</fillPercent>
@@ -96,6 +104,10 @@
                 <volume>(0.12, 0.35, 0.12)</volume>
             </shadowData>
         </graphicData>
+        <immatureGraphicData>
+            <texPath>Things/Plants/Gourd/FCP_Gourd_Immature</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+        </immatureGraphicData>
         <selectable>true</selectable>
         <neverMultiSelect>false</neverMultiSelect>
         <fillPercent>0.12</fillPercent>
@@ -132,6 +144,10 @@
                 <volume>(0.08, 0.25, 0.08)</volume>
             </shadowData>
         </graphicData>
+        <immatureGraphicData>
+            <texPath>Things/Plants/Jalepeno/FCP_Jalapeno_Immature</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+        </immatureGraphicData>
         <selectable>true</selectable>
         <neverMultiSelect>false</neverMultiSelect>
         <fillPercent>0.08</fillPercent>
@@ -168,6 +184,10 @@
                 <volume>(0.15, 0.4, 0.15)</volume>
             </shadowData>
         </graphicData>
+        <immatureGraphicData>
+            <texPath>Things/Plants/Maize/FCP_Maize_Immature</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+        </immatureGraphicData>
         <selectable>true</selectable>
         <neverMultiSelect>false</neverMultiSelect>
         <fillPercent>0.15</fillPercent>
@@ -204,6 +224,10 @@
                 <volume>(0.10, 0.3, 0.10)</volume>
             </shadowData>
         </graphicData>
+        <immatureGraphicData>
+            <texPath>Things/Plants/Melon/FCP_Melon_Immature</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+        </immatureGraphicData>
         <selectable>true</selectable>
         <neverMultiSelect>false</neverMultiSelect>
         <fillPercent>0.10</fillPercent>
@@ -240,6 +264,10 @@
                 <volume>(0.12, 0.35, 0.12)</volume>
             </shadowData>
         </graphicData>
+        <immatureGraphicData>
+            <texPath>Things/Plants/Mutfruit/FCP_Mutfruit_Immature</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+        </immatureGraphicData>
         <selectable>true</selectable>
         <neverMultiSelect>false</neverMultiSelect>
         <fillPercent>0.12</fillPercent>
@@ -276,6 +304,10 @@
                 <volume>(0.15, 0.4, 0.15)</volume>
             </shadowData>
         </graphicData>
+        <immatureGraphicData>
+            <texPath>Things/Plants/Razorgrain/FCP_Razorgrain_Immature</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+        </immatureGraphicData>
         <selectable>true</selectable>
         <neverMultiSelect>false</neverMultiSelect>
         <fillPercent>0.15</fillPercent>
@@ -312,6 +344,10 @@
                 <volume>(0.10, 0.3, 0.10)</volume>
             </shadowData>
         </graphicData>
+        <immatureGraphicData>
+            <texPath>Things/Plants/Siltbean/FCP_Silt_Bean_Immature</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+        </immatureGraphicData>
         <selectable>true</selectable>
         <neverMultiSelect>false</neverMultiSelect>
         <fillPercent>0.10</fillPercent>
@@ -348,6 +384,10 @@
                 <volume>(0.12, 0.35, 0.12)</volume>
             </shadowData>
         </graphicData>
+        <immatureGraphicData>
+            <texPath>Things/Plants/Tato/FCP_Tato_Immature</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+        </immatureGraphicData>
         <selectable>true</selectable>
         <neverMultiSelect>false</neverMultiSelect>
         <fillPercent>0.12</fillPercent>
