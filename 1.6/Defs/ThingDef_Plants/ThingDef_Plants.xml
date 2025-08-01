@@ -18,22 +18,19 @@
             <Nutrition>0.25</Nutrition>
         </statBases>
         <graphicData>
-            <texPath>Things/Plants/Carrot/FCP_Carrot_Plant</texPath>
+            <texPath>Things/Plants/Carrot</texPath>
             <graphicClass>Graphic_Random</graphicClass>
             <shadowData>
                 <volume>(0.1, 0.3, 0.1)</volume>
             </shadowData>
         </graphicData>
-        <immatureGraphicData>
-            <texPath>Things/Plants/Carrot/FCP_Carrot_Immature</texPath>
-            <graphicClass>Graphic_Random</graphicClass>
-        </immatureGraphicData>
         <selectable>true</selectable>
         <neverMultiSelect>false</neverMultiSelect>
         <fillPercent>0.10</fillPercent>
         <pathCost>20</pathCost>
         <ingestible />
         <plant>
+            <immatureGraphicPath>Things/Plants/Carrot</immatureGraphicPath>
             <fertilitySensitivity>0.6</fertilitySensitivity>
             <growDays>4</growDays>
             <harvestTag>Standard</harvestTag>
@@ -58,22 +55,19 @@
             <Nutrition>0.18</Nutrition>
         </statBases>
         <graphicData>
-            <texPath>Things/Plants/Cranberry/FCP_Cranberry_Plant</texPath>
+            <texPath>Things/Plants/Cranberry</texPath>
             <graphicClass>Graphic_Random</graphicClass>
             <shadowData>
                 <volume>(0.08, 0.25, 0.08)</volume>
             </shadowData>
         </graphicData>
-        <immatureGraphicData>
-            <texPath>Things/Plants/Cranberry/FCP_Cranberry_Immature</texPath>
-            <graphicClass>Graphic_Random</graphicClass>
-        </immatureGraphicData>
         <selectable>true</selectable>
         <neverMultiSelect>false</neverMultiSelect>
         <fillPercent>0.08</fillPercent>
         <pathCost>16</pathCost>
         <ingestible />
         <plant>
+            <immatureGraphicPath>Things/Plants/Cranberry</immatureGraphicPath>
             <fertilitySensitivity>0.7</fertilitySensitivity>
             <growDays>3</growDays>
             <harvestTag>Standard</harvestTag>
@@ -98,22 +92,19 @@
             <Nutrition>0.22</Nutrition>
         </statBases>
         <graphicData>
-            <texPath>Things/Plants/Gourd/FCP_Gourd_Plant</texPath>
+            <texPath>Things/Plants/Gourd</texPath>
             <graphicClass>Graphic_Random</graphicClass>
             <shadowData>
                 <volume>(0.12, 0.35, 0.12)</volume>
             </shadowData>
         </graphicData>
-        <immatureGraphicData>
-            <texPath>Things/Plants/Gourd/FCP_Gourd_Immature</texPath>
-            <graphicClass>Graphic_Random</graphicClass>
-        </immatureGraphicData>
         <selectable>true</selectable>
         <neverMultiSelect>false</neverMultiSelect>
         <fillPercent>0.12</fillPercent>
         <pathCost>22</pathCost>
         <ingestible />
         <plant>
+            <immatureGraphicPath>Things/Plants/Gourd</immatureGraphicPath>
             <fertilitySensitivity>0.5</fertilitySensitivity>
             <growDays>5</growDays>
             <harvestTag>Standard</harvestTag>
@@ -138,22 +129,19 @@
             <Nutrition>0.10</Nutrition>
         </statBases>
         <graphicData>
-            <texPath>Things/Plants/Jalepeno/FCP_Jalapeno_Plant</texPath>
+            <texPath>Things/Plants/Jalepeno</texPath>
             <graphicClass>Graphic_Random</graphicClass>
             <shadowData>
                 <volume>(0.08, 0.25, 0.08)</volume>
             </shadowData>
         </graphicData>
-        <immatureGraphicData>
-            <texPath>Things/Plants/Jalepeno/FCP_Jalapeno_Immature</texPath>
-            <graphicClass>Graphic_Random</graphicClass>
-        </immatureGraphicData>
         <selectable>true</selectable>
         <neverMultiSelect>false</neverMultiSelect>
         <fillPercent>0.08</fillPercent>
         <pathCost>16</pathCost>
         <ingestible />
         <plant>
+            <immatureGraphicPath>Things/Plants/Jalepeno</immatureGraphicPath>
             <fertilitySensitivity>0.6</fertilitySensitivity>
             <growDays>3</growDays>
             <harvestTag>Standard</harvestTag>
@@ -178,22 +166,19 @@
             <Nutrition>0.30</Nutrition>
         </statBases>
         <graphicData>
-            <texPath>Things/Plants/Maize/FCP_Maize_Plant</texPath>
+            <texPath>Things/Plants/Maize</texPath>
             <graphicClass>Graphic_Random</graphicClass>
             <shadowData>
                 <volume>(0.15, 0.4, 0.15)</volume>
             </shadowData>
         </graphicData>
-        <immatureGraphicData>
-            <texPath>Things/Plants/Maize/FCP_Maize_Immature</texPath>
-            <graphicClass>Graphic_Random</graphicClass>
-        </immatureGraphicData>
         <selectable>true</selectable>
         <neverMultiSelect>false</neverMultiSelect>
         <fillPercent>0.15</fillPercent>
         <pathCost>28</pathCost>
         <ingestible />
         <plant>
+            <immatureGraphicPath>Things/Plants/Maize</immatureGraphicPath>
             <fertilitySensitivity>0.7</fertilitySensitivity>
             <growDays>6</growDays>
             <harvestTag>Standard</harvestTag>
@@ -218,22 +203,19 @@
             <Nutrition>0.20</Nutrition>
         </statBases>
         <graphicData>
-            <texPath>Things/Plants/Melon/FCP_Melon_Plant</texPath>
+            <texPath>Things/Plants/Melon</texPath>
             <graphicClass>Graphic_Random</graphicClass>
             <shadowData>
                 <volume>(0.10, 0.3, 0.10)</volume>
             </shadowData>
         </graphicData>
-        <immatureGraphicData>
-            <texPath>Things/Plants/Melon/FCP_Melon_Immature</texPath>
-            <graphicClass>Graphic_Random</graphicClass>
-        </immatureGraphicData>
         <selectable>true</selectable>
         <neverMultiSelect>false</neverMultiSelect>
         <fillPercent>0.10</fillPercent>
         <pathCost>20</pathCost>
         <ingestible />
         <plant>
+            <immatureGraphicPath>Things/Plants/Melon</immatureGraphicPath>
             <fertilitySensitivity>0.5</fertilitySensitivity>
             <growDays>4</growDays>
             <harvestTag>Standard</harvestTag>
@@ -258,22 +240,19 @@
             <Nutrition>0.28</Nutrition>
         </statBases>
         <graphicData>
-            <texPath>Things/Plants/Mutfruit/FCP_Mutfruit_Tree</texPath>
+            <texPath>Things/Plants/Mutfruit</texPath>
             <graphicClass>Graphic_Random</graphicClass>
             <shadowData>
                 <volume>(0.12, 0.35, 0.12)</volume>
             </shadowData>
         </graphicData>
-        <immatureGraphicData>
-            <texPath>Things/Plants/Mutfruit/FCP_Mutfruit_Immature</texPath>
-            <graphicClass>Graphic_Random</graphicClass>
-        </immatureGraphicData>
         <selectable>true</selectable>
         <neverMultiSelect>false</neverMultiSelect>
         <fillPercent>0.12</fillPercent>
         <pathCost>22</pathCost>
         <ingestible />
         <plant>
+            <immatureGraphicPath>Things/Plants/Mutfruit</immatureGraphicPath>
             <fertilitySensitivity>0.5</fertilitySensitivity>
             <growDays>5</growDays>
             <harvestTag>Standard</harvestTag>
@@ -298,22 +277,19 @@
             <Nutrition>0.22</Nutrition>
         </statBases>
         <graphicData>
-            <texPath>Things/Plants/Razorgrain/FCP_Razorgrain_Plant</texPath>
+            <texPath>Things/Plants/Razorgrain</texPath>
             <graphicClass>Graphic_Random</graphicClass>
             <shadowData>
                 <volume>(0.15, 0.4, 0.15)</volume>
             </shadowData>
         </graphicData>
-        <immatureGraphicData>
-            <texPath>Things/Plants/Razorgrain/FCP_Razorgrain_Immature</texPath>
-            <graphicClass>Graphic_Random</graphicClass>
-        </immatureGraphicData>
         <selectable>true</selectable>
         <neverMultiSelect>false</neverMultiSelect>
         <fillPercent>0.15</fillPercent>
         <pathCost>28</pathCost>
         <ingestible />
         <plant>
+            <immatureGraphicPath>Things/Plants/Razorgrain</immatureGraphicPath>
             <fertilitySensitivity>0.7</fertilitySensitivity>
             <growDays>6</growDays>
             <harvestTag>Standard</harvestTag>
@@ -338,22 +314,19 @@
             <Nutrition>0.20</Nutrition>
         </statBases>
         <graphicData>
-            <texPath>Things/Plants/Siltbean/FCP_Silt_Bean_Plant</texPath>
+            <texPath>Things/Plants/Siltbean</texPath>
             <graphicClass>Graphic_Random</graphicClass>
             <shadowData>
                 <volume>(0.10, 0.3, 0.10)</volume>
             </shadowData>
         </graphicData>
-        <immatureGraphicData>
-            <texPath>Things/Plants/Siltbean/FCP_Silt_Bean_Immature</texPath>
-            <graphicClass>Graphic_Random</graphicClass>
-        </immatureGraphicData>
         <selectable>true</selectable>
         <neverMultiSelect>false</neverMultiSelect>
         <fillPercent>0.10</fillPercent>
         <pathCost>20</pathCost>
         <ingestible />
         <plant>
+        <immatureGraphicPath>Things/Plants/Siltbean</immatureGraphicPath>
             <fertilitySensitivity>0.5</fertilitySensitivity>
             <growDays>4</growDays>
             <harvestTag>Standard</harvestTag>
@@ -378,22 +351,19 @@
             <Nutrition>0.25</Nutrition>
         </statBases>
         <graphicData>
-            <texPath>Things/Plants/Tato/FCP_Tato_Plant</texPath>
+            <texPath>Things/Plants/Tato</texPath>
             <graphicClass>Graphic_Random</graphicClass>
             <shadowData>
                 <volume>(0.12, 0.35, 0.12)</volume>
             </shadowData>
         </graphicData>
-        <immatureGraphicData>
-            <texPath>Things/Plants/Tato/FCP_Tato_Immature</texPath>
-            <graphicClass>Graphic_Random</graphicClass>
-        </immatureGraphicData>
         <selectable>true</selectable>
         <neverMultiSelect>false</neverMultiSelect>
         <fillPercent>0.12</fillPercent>
         <pathCost>22</pathCost>
         <ingestible />
         <plant>
+            <immatureGraphicPath>Things/Plants/Tato</immatureGraphicPath>
             <fertilitySensitivity>0.5</fertilitySensitivity>
             <growDays>5</growDays>
             <harvestTag>Standard</harvestTag>
@@ -420,7 +390,7 @@
             <Nutrition>0.45</Nutrition>
         </statBases>
         <graphicData>
-            <texPath>Things/Plants/BananaYucca/FCP_Banana_Yucca_Plant</texPath>
+            <texPath>Things/Plants/BananaYucca</texPath>
             <graphicClass>Graphic_Random</graphicClass>
             <shadowData>
                 <volume>(0.2, 0.6, 0.2)</volume>
@@ -446,12 +416,6 @@
             <wildOrder>2</wildOrder>
             <purpose>Food</purpose>
         </plant>
-        <wildBiomes>
-            <li Class="BiomePlantListDef">
-                <biome>Desert</biome>
-                <commonality>1</commonality>
-            </li>
-        </wildBiomes>
     </ThingDef>
 
     <!-- Barrel Cactus (Wild)-->
@@ -465,7 +429,7 @@
             <Nutrition>0.15</Nutrition>
         </statBases>
         <graphicData>
-            <texPath>Things/Plants/BarrelCactus/FCP_Barrel_Cactus_Plant</texPath>
+            <texPath>Things/Plants/BarrelCactus</texPath>
             <graphicClass>Graphic_Random</graphicClass>
             <shadowData>
                 <volume>(0.2, 0.6, 0.2)</volume>
@@ -491,12 +455,6 @@
             <wildOrder>2</wildOrder>
             <purpose>Food</purpose>
         </plant>
-        <wildBiomes>
-            <li Class="BiomePlantListDef">
-                <biome>Desert</biome>
-                <commonality>0.85</commonality>
-            </li>
-        </wildBiomes>
     </ThingDef>
 
     <!-- Broc Flower (Wild) -->
@@ -510,7 +468,7 @@
             <Nutrition>0.05</Nutrition>
         </statBases>
         <graphicData>
-            <texPath>Things/Plants/BrocFlower/FCP_Broc_Flower_Plant</texPath>
+            <texPath>Things/Plants/BrocFlower</texPath>
             <graphicClass>Graphic_Random</graphicClass>
             <shadowData>
                 <volume>(0.1, 0.3, 0.1)</volume>
@@ -534,14 +492,8 @@
             <wildClusterRadius>2</wildClusterRadius>
             <wildClusterWeight>60</wildClusterWeight>
             <wildOrder>3</wildOrder>
-            <purpose>Medicine</purpose>
+            <purpose>Health</purpose>
         </plant>
-        <wildBiomes>
-            <li Class="BiomePlantListDef">
-                <biome>Desert</biome>
-                <commonality>0.2</commonality>
-            </li>
-        </wildBiomes>
     </ThingDef>
 
     <!-- Buffalo Gourd (Wild) -->
@@ -555,7 +507,7 @@
             <Nutrition>0.10</Nutrition>
         </statBases>
         <graphicData>
-            <texPath>Things/Plants/BuffaloGourds/FCP_Buffalo_Gourd_Plant</texPath>
+            <texPath>Things/Plants/BuffaloGourds</texPath>
             <graphicClass>Graphic_Random</graphicClass>
             <shadowData>
                 <volume>(0.15, 0.4, 0.15)</volume>
@@ -581,12 +533,6 @@
             <wildOrder>3</wildOrder>
             <purpose>Food</purpose>
         </plant>
-        <wildBiomes>
-            <li Class="BiomePlantListDef">
-                <biome>Desert</biome>
-                <commonality>0.3</commonality>
-            </li>
-        </wildBiomes>
     </ThingDef>
 
     <!-- Carrot Flower (Wild) -->
@@ -600,7 +546,7 @@
             <Nutrition>0.02</Nutrition>
         </statBases>
         <graphicData>
-            <texPath>Things/Plants/Carrot_Flower/FCP_Carrot_Flower</texPath>
+            <texPath>Things/Plants/Carrot_Flower</texPath>
             <graphicClass>Graphic_Random</graphicClass>
             <shadowData>
                 <volume>(0.05, 0.2, 0.05)</volume>
@@ -624,14 +570,8 @@
             <wildClusterRadius>1</wildClusterRadius>
             <wildClusterWeight>20</wildClusterWeight>
             <wildOrder>4</wildOrder>
-            <purpose>Seed</purpose>
+            <purpose>Misc</purpose>
         </plant>
-        <wildBiomes>
-            <li Class="BiomePlantListDef">
-                <biome>TemperateForest</biome>
-                <commonality>0.1</commonality>
-            </li>
-        </wildBiomes>
     </ThingDef>
 
     <!-- Glowing Mushroom (Wild) -->
@@ -645,7 +585,7 @@
             <Nutrition>0.08</Nutrition>
         </statBases>
         <graphicData>
-            <texPath>Things/Plants/GlowingMushroom/FCP_Glowing_Mushroom_Plant</texPath>
+            <texPath>Things/Plants/GlowingMushroom</texPath>
             <graphicClass>Graphic_Random</graphicClass>
             <shadowData>
                 <volume>(0.05, 0.15, 0.05)</volume>
@@ -669,14 +609,8 @@
             <wildClusterRadius>1</wildClusterRadius>
             <wildClusterWeight>15</wildClusterWeight>
             <wildOrder>5</wildOrder>
-            <purpose>Medicine</purpose>
+            <purpose>Health</purpose>
         </plant>
-        <wildBiomes>
-            <li Class="BiomePlantListDef">
-                <biome>Cave</biome>
-                <commonality>0.2</commonality>
-            </li>
-        </wildBiomes>
     </ThingDef>
 
     <!-- Honey Mesquite (Wild) -->
@@ -690,7 +624,7 @@
             <Nutrition>0.12</Nutrition>
         </statBases>
         <graphicData>
-            <texPath>Things/Plants/HoneyMesquite/FCP_Honey_Mesquite_Tree</texPath>
+            <texPath>Things/Plants/HoneyMesquite</texPath>
             <graphicClass>Graphic_Random</graphicClass>
             <shadowData>
                 <volume>(0.18, 0.5, 0.18)</volume>
@@ -716,12 +650,6 @@
             <wildOrder>6</wildOrder>
             <purpose>Food</purpose>
         </plant>
-        <wildBiomes>
-            <li Class="BiomePlantListDef">
-                <biome>Desert</biome>
-                <commonality>0.4</commonality>
-            </li>
-        </wildBiomes>
     </ThingDef>
 
     <!-- Mutated Fern (Wild) -->
@@ -735,7 +663,7 @@
             <Nutrition>0.06</Nutrition>
         </statBases>
         <graphicData>
-            <texPath>Things/Plants/MutatedFern/FCP_Mutated_Fern_Plant</texPath>
+            <texPath>Things/Plants/MutatedFern</texPath>
             <graphicClass>Graphic_Random</graphicClass>
             <shadowData>
                 <volume>(0.08, 0.25, 0.08)</volume>
@@ -759,14 +687,8 @@
             <wildClusterRadius>2</wildClusterRadius>
             <wildClusterWeight>40</wildClusterWeight>
             <wildOrder>7</wildOrder>
-            <purpose>Medicine</purpose>
+            <purpose>Health</purpose>
         </plant>
-        <wildBiomes>
-            <li Class="BiomePlantListDef">
-                <biome>Wasteland</biome>
-                <commonality>0.2</commonality>
-            </li>
-        </wildBiomes>
     </ThingDef>
 
     <!-- Nevada Agave (Wild) -->
@@ -780,7 +702,7 @@
             <Nutrition>0.14</Nutrition>
         </statBases>
         <graphicData>
-            <texPath>Things/Plants/NevadaAgave/FCP_Nevada_Agave_Plant</texPath>
+            <texPath>Things/Plants/NevadaAgave</texPath>
             <graphicClass>Graphic_Random</graphicClass>
             <shadowData>
                 <volume>(0.18, 0.5, 0.18)</volume>
@@ -806,12 +728,6 @@
             <wildOrder>8</wildOrder>
             <purpose>Food</purpose>
         </plant>
-        <wildBiomes>
-            <li Class="BiomePlantListDef">
-                <biome>Desert</biome>
-                <commonality>0.4</commonality>
-            </li>
-        </wildBiomes>
     </ThingDef>
 
     <!-- Prickly Pear Cactus (Wild) -->
@@ -825,7 +741,7 @@
             <Nutrition>0.16</Nutrition>
         </statBases>
         <graphicData>
-            <texPath>Things/Plants/PricklyPearCactus/FCP_Prickly_Pear_Plant</texPath>
+            <texPath>Things/Plants/PricklyPearCactus</texPath>
             <graphicClass>Graphic_Random</graphicClass>
             <shadowData>
                 <volume>(0.2, 0.6, 0.2)</volume>
@@ -851,12 +767,6 @@
             <wildOrder>9</wildOrder>
             <purpose>Food</purpose>
         </plant>
-        <wildBiomes>
-            <li Class="BiomePlantListDef">
-                <biome>Desert</biome>
-                <commonality>0.85</commonality>
-            </li>
-        </wildBiomes>
     </ThingDef>
 
     <!-- Tarberry (Wild) -->
@@ -870,7 +780,7 @@
             <Nutrition>0.12</Nutrition>
         </statBases>
         <graphicData>
-            <texPath>Things/Plants/Tarberry/FCP_Tarberry_Plant</texPath>
+            <texPath>Things/Plants/Tarberry</texPath>
             <graphicClass>Graphic_Random</graphicClass>
             <shadowData>
                 <volume>(0.08, 0.25, 0.08)</volume>
@@ -896,12 +806,6 @@
             <wildOrder>10</wildOrder>
             <purpose>Food</purpose>
         </plant>
-        <wildBiomes>
-            <li Class="BiomePlantListDef">
-                <biome>Marsh</biome>
-                <commonality>0.3</commonality>
-            </li>
-        </wildBiomes>
     </ThingDef>
 
     <!-- Xander Root (Wild) -->
@@ -915,7 +819,7 @@
             <Nutrition>0.05</Nutrition>
         </statBases>
         <graphicData>
-            <texPath>Things/Plants/XanderRoot/FCP_Xander_Root_Plant</texPath>
+            <texPath>Things/Plants/XanderRoot</texPath>
             <graphicClass>Graphic_Random</graphicClass>
             <shadowData>
                 <volume>(0.1, 0.3, 0.1)</volume>
@@ -939,14 +843,8 @@
             <wildClusterRadius>2</wildClusterRadius>
             <wildClusterWeight>60</wildClusterWeight>
             <wildOrder>11</wildOrder>
-            <purpose>Medicine</purpose>
+            <purpose>Health</purpose>
         </plant>
-        <wildBiomes>
-            <li Class="BiomePlantListDef">
-                <biome>Desert</biome>
-                <commonality>0.2</commonality>
-            </li>
-        </wildBiomes>
     </ThingDef>
 
 </Defs>
