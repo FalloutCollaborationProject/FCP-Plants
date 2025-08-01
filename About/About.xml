@@ -8,7 +8,6 @@
     <name>FCP - Plants</name>
     <description>The Fallout Collaboration Project Presents: Plants, a complete plant and nature mod adding in all the plants of the wasteland.</description>
     <supportedVersions>
-        <li>1.5</li>
         <li>1.6</li>
     </supportedVersions>
     <modDependencies>
