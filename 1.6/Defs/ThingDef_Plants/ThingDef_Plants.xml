@@ -30,6 +30,10 @@
         <pathCost>20</pathCost>
         <ingestible />
         <plant>
+            <sowTags>
+                <li>Ground</li>
+                <li>Hydroponic</li>
+            </sowTags>
             <immatureGraphicPath>Things/Plants/Carrot_Immature</immatureGraphicPath>
             <fertilitySensitivity>0.6</fertilitySensitivity>
             <growDays>4</growDays>
@@ -67,6 +71,9 @@
         <pathCost>16</pathCost>
         <ingestible />
         <plant>
+            <sowTags>
+                <li>Ground</li>
+            </sowTags>
             <immatureGraphicPath>Things/Plants/Cranberry_Immature</immatureGraphicPath>
             <fertilitySensitivity>0.7</fertilitySensitivity>
             <growDays>3</growDays>
@@ -104,6 +111,10 @@
         <pathCost>22</pathCost>
         <ingestible />
         <plant>
+            <sowTags>
+                <li>Ground</li>
+                <li>Hydroponic</li>
+            </sowTags>
             <immatureGraphicPath>Things/Plants/Gourd_Immature</immatureGraphicPath>
             <fertilitySensitivity>0.5</fertilitySensitivity>
             <growDays>5</growDays>
@@ -141,6 +152,10 @@
         <pathCost>16</pathCost>
         <ingestible />
         <plant>
+            <sowTags>
+                <li>Ground</li>
+                <li>Hydroponic</li>
+            </sowTags>
             <immatureGraphicPath>Things/Plants/Jalepeno_Immature</immatureGraphicPath>
             <fertilitySensitivity>0.6</fertilitySensitivity>
             <growDays>3</growDays>
@@ -178,6 +193,9 @@
         <pathCost>28</pathCost>
         <ingestible />
         <plant>
+            <sowTags>
+                <li>Ground</li>
+            </sowTags>
             <immatureGraphicPath>Things/Plants/Maize</immatureGraphicPath>
             <fertilitySensitivity>0.7</fertilitySensitivity>
             <growDays>6</growDays>
@@ -215,6 +233,10 @@
         <pathCost>20</pathCost>
         <ingestible />
         <plant>
+            <sowTags>
+                <li>Ground</li>
+                <li>Hydroponic</li>
+            </sowTags>
             <immatureGraphicPath>Things/Plants/Melon_Immature</immatureGraphicPath>
             <fertilitySensitivity>0.5</fertilitySensitivity>
             <growDays>4</growDays>
@@ -252,6 +274,9 @@
         <pathCost>22</pathCost>
         <ingestible />
         <plant>
+            <sowTags>
+                <li>Ground</li>
+            </sowTags>
             <immatureGraphicPath>Things/Plants/Mutfruit_Immature</immatureGraphicPath>
             <fertilitySensitivity>0.5</fertilitySensitivity>
             <growDays>5</growDays>
@@ -289,6 +314,9 @@
         <pathCost>28</pathCost>
         <ingestible />
         <plant>
+            <sowTags>
+                <li>Ground</li>
+            </sowTags>
             <immatureGraphicPath>Things/Plants/Razorgrain</immatureGraphicPath>
             <fertilitySensitivity>0.7</fertilitySensitivity>
             <growDays>6</growDays>
@@ -326,7 +354,11 @@
         <pathCost>20</pathCost>
         <ingestible />
         <plant>
-        <immatureGraphicPath>Things/Plants/Siltbean_Immature</immatureGraphicPath>
+            <sowTags>
+                <li>Ground</li>
+                <li>Hydroponic</li>
+            </sowTags>
+            <immatureGraphicPath>Things/Plants/Siltbean_Immature</immatureGraphicPath>
             <fertilitySensitivity>0.5</fertilitySensitivity>
             <growDays>4</growDays>
             <harvestTag>Standard</harvestTag>
@@ -363,6 +395,10 @@
         <pathCost>22</pathCost>
         <ingestible />
         <plant>
+            <sowTags>
+                <li>Ground</li>
+                <li>Hydroponic</li>
+            </sowTags>
             <immatureGraphicPath>Things/Plants/Tato</immatureGraphicPath>
             <fertilitySensitivity>0.5</fertilitySensitivity>
             <growDays>5</growDays>
