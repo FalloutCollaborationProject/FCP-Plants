@@ -49,7 +49,7 @@
     </ThingDef>
 
     <!-- Cranberry (Farmable) -->
-    
+
     <ThingDef ParentName="PlantBase">
         <defName>FCP_Plant_Cranberry</defName>
         <label>Cranberry</label>
@@ -77,7 +77,7 @@
             <immatureGraphicPath>Things/Plants/Cranberry_Immature</immatureGraphicPath>
             <fertilitySensitivity>0.7</fertilitySensitivity>
             <growDays>6</growDays>
-            <harvestTag>Standard</harvestTag> 
+            <harvestTag>Standard</harvestTag>
             <harvestAfterGrowth>0.50</harvestAfterGrowth>
             <harvestedThingDef>FCP_Raw_Cranberry</harvestedThingDef>
             <harvestYield>10</harvestYield>
@@ -420,7 +420,7 @@
     <ThingDef ParentName="PlantBase">
         <defName>FCP_Plant_Banana_Yucca</defName>
         <label>Banana Yucca</label>
-    <description>A hardy desert plant found throughout the Mojave, banana yucca produces sweet, starchy fruit that is a staple for survival. Its thick leaves and resilience make it a reliable source of nutrition for wasteland wanderers.</description>
+        <description>A hardy desert plant found throughout the Mojave, banana yucca produces sweet, starchy fruit that is a staple for survival. Its thick leaves and resilience make it a reliable source of nutrition for wasteland wanderers.</description>
         <statBases>
             <MaxHitPoints>120</MaxHitPoints>
             <Nutrition>0.45</Nutrition>
@@ -438,7 +438,8 @@
         <pathCost>32</pathCost>
         <ingestible />
         <plant>
-            <fertilitySensitivity>0.5</fertilitySensitivity>
+            <fertilityMin>0.05</fertilityMin>
+            <fertilitySensitivity>0</fertilitySensitivity>
             <growDays>6</growDays>
             <harvestTag>Standard</harvestTag>
             <harvestAfterGrowth>0.30</harvestAfterGrowth>
@@ -459,7 +460,7 @@
     <ThingDef ParentName="PlantBase">
         <defName>FCP_Plant_Barrel_Cactus</defName>
         <label>Barrel Cactus</label>
-    <description>This round, spiny cactus stores water in its thick stem and can be found scattered across arid landscapes. Barrel cactus fruit is edible and provides a modest but vital source of hydration and nutrition in the harsh wasteland.</description>
+        <description>This round, spiny cactus stores water in its thick stem and can be found scattered across arid landscapes. Barrel cactus fruit is edible and provides a modest but vital source of hydration and nutrition in the harsh wasteland.</description>
         <statBases>
             <MaxHitPoints>120</MaxHitPoints>
             <Nutrition>0.15</Nutrition>
@@ -478,7 +479,8 @@
         <ingestible />
         <plant>
             <immatureGraphicPath>Things/Plants/BarrelCactus_Immature</immatureGraphicPath>
-            <fertilitySensitivity>0.5</fertilitySensitivity>
+            <fertilityMin>0.05</fertilityMin>
+            <fertilitySensitivity>0</fertilitySensitivity>
             <growDays>3</growDays>
             <harvestTag>Standard</harvestTag>
             <harvestAfterGrowth>0.30</harvestAfterGrowth>
@@ -556,7 +558,8 @@
         <pathCost>28</pathCost>
         <ingestible />
         <plant>
-            <fertilitySensitivity>0.3</fertilitySensitivity>
+            <fertilityMin>0.05</fertilityMin>
+            <fertilitySensitivity>0</fertilitySensitivity>
             <growDays>5</growDays>
             <harvestTag>Standard</harvestTag>
             <harvestAfterGrowth>0.35</harvestAfterGrowth>
@@ -676,7 +679,8 @@
         <ingestible />
         <plant>
             <immatureGraphicPath>Things/Plants/HoneyMesquite_Immature</immatureGraphicPath>
-            <fertilitySensitivity>0.3</fertilitySensitivity>
+            <fertilityMin>0.05</fertilityMin>
+            <fertilitySensitivity>0</fertilitySensitivity>
             <growDays>7</growDays>
             <harvestTag>Standard</harvestTag>
             <harvestAfterGrowth>0.25</harvestAfterGrowth>
@@ -756,7 +760,8 @@
         <ingestible />
         <plant>
             <immatureGraphicPath>Things/Plants/NevadaAgave_Immature</immatureGraphicPath>
-            <fertilitySensitivity>0.3</fertilitySensitivity>
+            <fertilityMin>0.05</fertilityMin>
+            <fertilitySensitivity>0</fertilitySensitivity>
             <growDays>7</growDays>
             <harvestTag>Standard</harvestTag>
             <harvestAfterGrowth>0.25</harvestAfterGrowth>
@@ -796,7 +801,8 @@
         <ingestible />
         <plant>
             <immatureGraphicPath>Things/Plants/PricklyPearCactus_Immature</immatureGraphicPath>
-            <fertilitySensitivity>0.5</fertilitySensitivity>
+            <fertilityMin>0.05</fertilityMin>
+            <fertilitySensitivity>0</fertilitySensitivity>
             <growDays>5</growDays>
             <harvestTag>Standard</harvestTag>
             <harvestAfterGrowth>0.30</harvestAfterGrowth>
