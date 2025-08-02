@@ -76,7 +76,7 @@
             </sowTags>
             <immatureGraphicPath>Things/Plants/Cranberry_Immature</immatureGraphicPath>
             <fertilitySensitivity>0.7</fertilitySensitivity>
-            <growDays>3</growDays>
+            <growDays>6</growDays>
             <harvestTag>Standard</harvestTag> 
             <harvestAfterGrowth>0.50</harvestAfterGrowth>
             <harvestedThingDef>FCP_Raw_Cranberry</harvestedThingDef>
