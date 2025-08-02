@@ -34,6 +34,9 @@
                 <li>Ground</li>
                 <li>Hydroponic</li>
             </sowTags>
+            <sowResearchPrerequisites>
+                <li>FCP_Research_Basic_Agriculture</li>
+            </sowResearchPrerequisites>
             <immatureGraphicPath>Things/Plants/Carrot_Immature</immatureGraphicPath>
             <fertilitySensitivity>0.6</fertilitySensitivity>
             <growDays>4</growDays>
@@ -74,6 +77,9 @@
             <sowTags>
                 <li>Ground</li>
             </sowTags>
+            <sowResearchPrerequisites>
+                <li>FCP_Research_Basic_Agriculture</li>
+            </sowResearchPrerequisites>
             <immatureGraphicPath>Things/Plants/Cranberry_Immature</immatureGraphicPath>
             <fertilitySensitivity>0.7</fertilitySensitivity>
             <growDays>6</growDays>
@@ -115,6 +121,9 @@
                 <li>Ground</li>
                 <li>Hydroponic</li>
             </sowTags>
+            <sowResearchPrerequisites>
+                <li>FCP_Research_Basic_Agriculture</li>
+            </sowResearchPrerequisites>
             <immatureGraphicPath>Things/Plants/Gourd_Immature</immatureGraphicPath>
             <fertilitySensitivity>0.5</fertilitySensitivity>
             <growDays>5</growDays>
@@ -156,6 +165,9 @@
                 <li>Ground</li>
                 <li>Hydroponic</li>
             </sowTags>
+            <sowResearchPrerequisites>
+                <li>FCP_Research_Basic_Agriculture</li>
+            </sowResearchPrerequisites>
             <immatureGraphicPath>Things/Plants/Jalepeno_Immature</immatureGraphicPath>
             <fertilitySensitivity>0.6</fertilitySensitivity>
             <growDays>3</growDays>
@@ -196,6 +208,9 @@
             <sowTags>
                 <li>Ground</li>
             </sowTags>
+            <sowResearchPrerequisites>
+                <li>FCP_Research_Basic_Agriculture</li>
+            </sowResearchPrerequisites>
             <immatureGraphicPath>Things/Plants/Maize</immatureGraphicPath>
             <fertilitySensitivity>0.7</fertilitySensitivity>
             <growDays>6</growDays>
@@ -237,6 +252,9 @@
                 <li>Ground</li>
                 <li>Hydroponic</li>
             </sowTags>
+            <sowResearchPrerequisites>
+                <li>FCP_Research_Basic_Agriculture</li>
+            </sowResearchPrerequisites>
             <immatureGraphicPath>Things/Plants/Melon_Immature</immatureGraphicPath>
             <fertilitySensitivity>0.5</fertilitySensitivity>
             <growDays>4</growDays>
@@ -277,6 +295,9 @@
             <sowTags>
                 <li>Ground</li>
             </sowTags>
+            <sowResearchPrerequisites>
+                <li>FCP_Research_Basic_Agriculture</li>
+            </sowResearchPrerequisites>
             <immatureGraphicPath>Things/Plants/Mutfruit_Immature</immatureGraphicPath>
             <fertilitySensitivity>0.5</fertilitySensitivity>
             <growDays>5</growDays>
@@ -317,6 +338,9 @@
             <sowTags>
                 <li>Ground</li>
             </sowTags>
+            <sowResearchPrerequisites>
+                <li>FCP_Research_Basic_Agriculture</li>
+            </sowResearchPrerequisites>
             <immatureGraphicPath>Things/Plants/Razorgrain</immatureGraphicPath>
             <fertilitySensitivity>0.7</fertilitySensitivity>
             <growDays>6</growDays>
@@ -358,6 +382,9 @@
                 <li>Ground</li>
                 <li>Hydroponic</li>
             </sowTags>
+            <sowResearchPrerequisites>
+                <li>FCP_Research_Basic_Agriculture</li>
+            </sowResearchPrerequisites>
             <immatureGraphicPath>Things/Plants/Siltbean_Immature</immatureGraphicPath>
             <fertilitySensitivity>0.5</fertilitySensitivity>
             <growDays>4</growDays>
