@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <Patch>
 
     <!-- Patches for the plants in biomes-->
@@ -10,13 +9,6 @@
             <FCP_Plant_Carrot_Flower>0.1</FCP_Plant_Carrot_Flower>
         </value>
     </Operation>
-
-<!--    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BiomeDef[defName="Wasteland"]/wildPlants</xpath>
-        <value>
-            <FCP_Plant_Mutated_Fern>0.2</FCP_Plant_Mutated_Fern>
-        </value>
-    </Operation>-->
 
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/BiomeDef[defName="Desert"]/wildPlants</xpath>
@@ -31,21 +23,5 @@
             <FCP_Plant_Xander_Root>0.2</FCP_Plant_Xander_Root>
         </value>
     </Operation>
-
-<!--    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BiomeDef[defName="Marsh"]/wildPlants</xpath>
-        <value>
-            <FCP_Plant_Glowing_Mushroom>0.2</FCP_Plant_Glowing_Mushroom>
-        </value>
-    </Operation>
-
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BiomeDef[defName="Cave"]/wildPlants</xpath>
-        <value>
-            <FCP_Plant_Glowing_Mushroom>0.2</FCP_Plant_Glowing_Mushroom>
-        </value>
-    </Operation>-->
-
-<!-- Those in comments are of biomes that are not in vanilla, and i don't know where rick wants them -->
 
 </Patch>

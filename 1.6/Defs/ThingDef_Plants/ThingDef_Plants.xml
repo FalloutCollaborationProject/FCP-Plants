@@ -43,11 +43,12 @@
             <harvestTag>Standard</harvestTag>
             <harvestAfterGrowth>0.45</harvestAfterGrowth>
             <harvestedThingDef>FCP_Raw_Carrot</harvestedThingDef>
-            <harvestYield>7</harvestYield>
+            <harvestYield>5</harvestYield>
             <harvestWork>65</harvestWork>
             <visualSizeRange>0.7~1.1</visualSizeRange>
             <topWindExposure>0.1</topWindExposure>
             <purpose>Food</purpose>
+            <dieFromToxicFallout>false</dieFromToxicFallout>
         </plant>
     </ThingDef>
 
@@ -86,11 +87,12 @@
             <harvestTag>Standard</harvestTag>
             <harvestAfterGrowth>0.50</harvestAfterGrowth>
             <harvestedThingDef>FCP_Raw_Cranberry</harvestedThingDef>
-            <harvestYield>8</harvestYield>
+            <harvestYield>6</harvestYield>
             <harvestWork>45</harvestWork>
             <visualSizeRange>0.6~1.0</visualSizeRange>
             <topWindExposure>0.05</topWindExposure>
             <purpose>Food</purpose>
+            <dieFromToxicFallout>false</dieFromToxicFallout>
         </plant>
     </ThingDef>
 
@@ -130,11 +132,12 @@
             <harvestTag>Standard</harvestTag>
             <harvestAfterGrowth>0.40</harvestAfterGrowth>
             <harvestedThingDef>FCP_Raw_Gourd</harvestedThingDef>
-            <harvestYield>6</harvestYield>
+            <harvestYield>5</harvestYield>
             <harvestWork>90</harvestWork>
             <visualSizeRange>0.8~1.3</visualSizeRange>
             <topWindExposure>0.15</topWindExposure>
             <purpose>Food</purpose>
+            <dieFromToxicFallout>false</dieFromToxicFallout>
         </plant>
     </ThingDef>
 
@@ -174,11 +177,12 @@
             <harvestTag>Standard</harvestTag>
             <harvestAfterGrowth>0.50</harvestAfterGrowth>
             <harvestedThingDef>FCP_Raw_Jalapeno</harvestedThingDef>
-            <harvestYield>7</harvestYield>
+            <harvestYield>6</harvestYield>
             <harvestWork>45</harvestWork>
             <visualSizeRange>0.6~1.0</visualSizeRange>
             <topWindExposure>0.05</topWindExposure>
             <purpose>Food</purpose>
+            <dieFromToxicFallout>false</dieFromToxicFallout>
         </plant>
     </ThingDef>
 
@@ -217,11 +221,12 @@
             <harvestTag>Standard</harvestTag>
             <harvestAfterGrowth>0.40</harvestAfterGrowth>
             <harvestedThingDef>FCP_Raw_Maize</harvestedThingDef>
-            <harvestYield>10</harvestYield>
+            <harvestYield>7</harvestYield>
             <harvestWork>110</harvestWork>
             <visualSizeRange>0.8~1.3</visualSizeRange>
             <topWindExposure>0.15</topWindExposure>
             <purpose>Food</purpose>
+            <dieFromToxicFallout>false</dieFromToxicFallout>
         </plant>
     </ThingDef>
 
@@ -261,11 +266,12 @@
             <harvestTag>Standard</harvestTag>
             <harvestAfterGrowth>0.45</harvestAfterGrowth>
             <harvestedThingDef>FCP_Raw_Melon</harvestedThingDef>
-            <harvestYield>5</harvestYield>
+            <harvestYield>4</harvestYield>
             <harvestWork>65</harvestWork>
             <visualSizeRange>0.7~1.1</visualSizeRange>
             <topWindExposure>0.1</topWindExposure>
             <purpose>Food</purpose>
+            <dieFromToxicFallout>false</dieFromToxicFallout>
         </plant>
     </ThingDef>
 
@@ -304,11 +310,12 @@
             <harvestTag>Standard</harvestTag>
             <harvestAfterGrowth>0.40</harvestAfterGrowth>
             <harvestedThingDef>FCP_Raw_Mutfruit</harvestedThingDef>
-            <harvestYield>8</harvestYield>
+            <harvestYield>6</harvestYield>
             <harvestWork>90</harvestWork>
             <visualSizeRange>0.8~1.3</visualSizeRange>
             <topWindExposure>0.15</topWindExposure>
             <purpose>Food</purpose>
+            <dieFromToxicFallout>false</dieFromToxicFallout>
         </plant>
     </ThingDef>
 
@@ -347,11 +354,12 @@
             <harvestTag>Standard</harvestTag>
             <harvestAfterGrowth>0.40</harvestAfterGrowth>
             <harvestedThingDef>FCP_Raw_Razorgrain</harvestedThingDef>
-            <harvestYield>10</harvestYield>
+            <harvestYield>7</harvestYield>
             <harvestWork>110</harvestWork>
             <visualSizeRange>0.8~1.3</visualSizeRange>
             <topWindExposure>0.15</topWindExposure>
             <purpose>Food</purpose>
+            <dieFromToxicFallout>false</dieFromToxicFallout>
         </plant>
     </ThingDef>
 
@@ -391,11 +399,12 @@
             <harvestTag>Standard</harvestTag>
             <harvestAfterGrowth>0.45</harvestAfterGrowth>
             <harvestedThingDef>FCP_Raw_Siltbean</harvestedThingDef>
-            <harvestYield>7</harvestYield>
+            <harvestYield>5</harvestYield>
             <harvestWork>65</harvestWork>
             <visualSizeRange>0.7~1.1</visualSizeRange>
             <topWindExposure>0.1</topWindExposure>
             <purpose>Food</purpose>
+            <dieFromToxicFallout>false</dieFromToxicFallout>
         </plant>
     </ThingDef>
 
@@ -432,11 +441,12 @@
             <harvestTag>Standard</harvestTag>
             <harvestAfterGrowth>0.40</harvestAfterGrowth>
             <harvestedThingDef>FCP_Raw_Tato</harvestedThingDef>
-            <harvestYield>8</harvestYield>
+            <harvestYield>6</harvestYield>
             <harvestWork>90</harvestWork>
             <visualSizeRange>0.8~1.3</visualSizeRange>
             <topWindExposure>0.15</topWindExposure>
             <purpose>Food</purpose>
+            <dieFromToxicFallout>false</dieFromToxicFallout>
         </plant>
     </ThingDef>
 
@@ -479,6 +489,7 @@
             <wildClusterWeight>310</wildClusterWeight>
             <wildOrder>2</wildOrder>
             <purpose>Food</purpose>
+            <dieFromToxicFallout>false</dieFromToxicFallout>
         </plant>
     </ThingDef>
 
@@ -520,6 +531,7 @@
             <wildClusterWeight>250</wildClusterWeight>
             <wildOrder>2</wildOrder>
             <purpose>Food</purpose>
+            <dieFromToxicFallout>false</dieFromToxicFallout>
         </plant>
     </ThingDef>
 
@@ -559,6 +571,7 @@
             <wildClusterWeight>60</wildClusterWeight>
             <wildOrder>3</wildOrder>
             <purpose>Health</purpose>
+            <dieFromToxicFallout>false</dieFromToxicFallout>
         </plant>
     </ThingDef>
 
@@ -599,6 +612,7 @@
             <wildClusterWeight>90</wildClusterWeight>
             <wildOrder>3</wildOrder>
             <purpose>Food</purpose>
+            <dieFromToxicFallout>false</dieFromToxicFallout>
         </plant>
     </ThingDef>
 
@@ -639,6 +653,7 @@
             <wildClusterWeight>20</wildClusterWeight>
             <wildOrder>4</wildOrder>
             <purpose>Misc</purpose>
+            <dieFromToxicFallout>false</dieFromToxicFallout>
         </plant>
     </ThingDef>
 
@@ -679,7 +694,14 @@
             <wildClusterWeight>15</wildClusterWeight>
             <wildOrder>5</wildOrder>
             <purpose>Health</purpose>
+            <dieFromToxicFallout>false</dieFromToxicFallout>
         </plant>
+        <comps>
+            <li Class="CompProperties_Glower">
+                <glowRadius>3</glowRadius>
+                <glowColor>(10, 50, 0, 0)</glowColor>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- Honey Mesquite (Wild) -->
@@ -720,6 +742,7 @@
             <wildClusterWeight>120</wildClusterWeight>
             <wildOrder>6</wildOrder>
             <purpose>Food</purpose>
+            <dieFromToxicFallout>false</dieFromToxicFallout>
         </plant>
     </ThingDef>
 
@@ -760,6 +783,7 @@
             <wildClusterWeight>40</wildClusterWeight>
             <wildOrder>7</wildOrder>
             <purpose>Health</purpose>
+            <dieFromToxicFallout>false</dieFromToxicFallout>
         </plant>
     </ThingDef>
 
@@ -801,6 +825,7 @@
             <wildClusterWeight>120</wildClusterWeight>
             <wildOrder>8</wildOrder>
             <purpose>Food</purpose>
+            <dieFromToxicFallout>false</dieFromToxicFallout>
         </plant>
     </ThingDef>
 
@@ -842,6 +867,7 @@
             <wildClusterWeight>250</wildClusterWeight>
             <wildOrder>9</wildOrder>
             <purpose>Food</purpose>
+            <dieFromToxicFallout>false</dieFromToxicFallout>
         </plant>
     </ThingDef>
 
@@ -882,6 +908,7 @@
             <wildClusterWeight>40</wildClusterWeight>
             <wildOrder>10</wildOrder>
             <purpose>Food</purpose>
+            <dieFromToxicFallout>false</dieFromToxicFallout>
         </plant>
     </ThingDef>
 
@@ -921,6 +948,7 @@
             <wildClusterWeight>60</wildClusterWeight>
             <wildOrder>11</wildOrder>
             <purpose>Health</purpose>
+            <dieFromToxicFallout>false</dieFromToxicFallout>
         </plant>
     </ThingDef>
 
