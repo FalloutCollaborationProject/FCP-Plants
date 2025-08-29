@@ -19,6 +19,12 @@
         <ingestible>
             <foodType>VegetableOrFruit</foodType>
         </ingestible>
+        <Comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>4</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </Comps>
     </ThingDef>
 
     <!-- Cranberry -->
@@ -37,6 +43,12 @@
         <ingestible>
             <foodType>VegetableOrFruit</foodType>
         </ingestible>
+        <Comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>6</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </Comps>
     </ThingDef>
 
     <!-- Gourd -->
@@ -55,6 +67,12 @@
         <ingestible>
             <foodType>Seed,VegetableOrFruit</foodType>
         </ingestible>
+        <Comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>8</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </Comps>
     </ThingDef>
 
     <!-- Jalapeno -->
@@ -73,6 +91,12 @@
         <ingestible>
             <foodType>VegetableOrFruit</foodType>
         </ingestible>
+        <Comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>3</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </Comps>
     </ThingDef>
 
     <!-- Maize -->
@@ -91,6 +115,12 @@
         <ingestible>
             <foodType>Seed,VegetableOrFruit</foodType>
         </ingestible>
+        <Comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>7</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </Comps>
     </ThingDef>
 
     <!-- Melon -->
@@ -109,6 +139,12 @@
         <ingestible>
             <foodType>VegetableOrFruit</foodType>
         </ingestible>
+        <Comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>5</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </Comps>
     </ThingDef>
 
     <!-- Mutfruit -->
@@ -127,6 +163,12 @@
         <ingestible>
             <foodType>VegetableOrFruit</foodType>
         </ingestible>
+        <Comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>6</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </Comps>
     </ThingDef>
 
     <!-- Razorgrain -->
@@ -145,6 +187,12 @@
         <ingestible>
             <foodType>Seed</foodType>
         </ingestible>
+        <Comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>7</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </Comps>
     </ThingDef>
 
     <!-- Siltbean -->
@@ -163,6 +211,12 @@
         <ingestible>
             <foodType>VegetableOrFruit</foodType>
         </ingestible>
+        <Comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>4</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </Comps>
     </ThingDef>
 
     <!-- Tato -->
@@ -181,6 +235,12 @@
         <ingestible>
             <foodType>VegetableOrFruit</foodType>
         </ingestible>
+        <Comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>9</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </Comps>
     </ThingDef>
 
     <!-- Banana Yucca -->
@@ -199,6 +259,12 @@
         <ingestible>
             <foodType>VegetableOrFruit</foodType>
         </ingestible>
+        <Comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>2</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </Comps>
     </ThingDef>
 
     <!-- Barrel Cactus -->
@@ -217,6 +283,12 @@
         <ingestible>
             <foodType>VegetableOrFruit</foodType>
         </ingestible>
+        <Comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>3</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </Comps>
     </ThingDef>
 
     <!-- Broc Flower -->
@@ -235,6 +307,12 @@
         <ingestible>
             <foodType>Plant</foodType>
         </ingestible>
+        <Comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>2</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </Comps>
     </ThingDef>
 
     <!-- Buffalo Gourd -->
@@ -253,6 +331,12 @@
         <ingestible>
             <foodType>Seed</foodType>
         </ingestible>
+        <Comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>5</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </Comps>
     </ThingDef>
 
     <!-- Carrot Flower -->
@@ -271,6 +355,12 @@
         <ingestible>
             <foodType>Plant</foodType>
         </ingestible>
+        <Comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>3</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </Comps>
     </ThingDef>
 
     <!-- Glowing Mushroom -->
@@ -289,6 +379,12 @@
         <ingestible>
             <foodType>Plant</foodType>
         </ingestible>
+        <Comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>6</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </Comps>
     </ThingDef>
 
     <!-- Honey Mesquite -->
@@ -307,6 +403,12 @@
         <ingestible>
             <foodType>Seed</foodType>
         </ingestible>
+        <Comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>4</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </Comps>
     </ThingDef>
 
     <!-- Mutated Fern -->
@@ -325,6 +427,12 @@
         <ingestible>
             <foodType>Plant</foodType>
         </ingestible>
+        <Comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>7</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </Comps>
     </ThingDef>
 
     <!-- Nevada Agave -->
@@ -343,6 +451,12 @@
         <ingestible>
             <foodType>Plant</foodType>
         </ingestible>
+        <Comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>2</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </Comps>
     </ThingDef>
 
     <!-- Prickly Pear Cactus -->
@@ -361,6 +475,12 @@
         <ingestible>
             <foodType>VegetableOrFruit</foodType>
         </ingestible>
+        <Comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>6</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </Comps>
     </ThingDef>
 
     <!-- Tarberry -->
@@ -379,6 +499,12 @@
         <ingestible>
             <foodType>VegetableOrFruit</foodType>
         </ingestible>
+        <Comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>4</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </Comps>
     </ThingDef>
 
     <!-- Xander Root -->
@@ -397,6 +523,12 @@
         <ingestible>
             <foodType>Plant</foodType>
         </ingestible>
+        <Comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>8</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </Comps>
     </ThingDef>
 
 </Defs>
