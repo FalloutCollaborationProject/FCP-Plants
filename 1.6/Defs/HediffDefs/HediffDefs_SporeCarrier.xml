@@ -1,6 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+    <!--__________ Spore Carrier Forced Hostility __________-->
+
+    <HediffDef>
+        <defName>FCP_Hediff_SporeCarrier_ForceHostile</defName>
+        <label>mindless aggression</label>
+        <description>Keeps this spore carrier locked onto its host faction and hostile toward anything living, regardless of how it came to be.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>false</isBad>
+        <tendable>false</tendable>
+        <maxSeverity>1</maxSeverity>
+        <comps>
+            <li Class="FCP.Core.Hediffs.HediffCompProperties_ForceHostileFaction">
+                <factionDef>FCP_Faction_SporeCarrier</factionDef>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>FCP_Hediff_SporeCarrier_Spawn_Hostile</defName>
+        <label>Hostile Spore Carrier</label>
+        <description>Hostile Spore Carrier.</description>
+        <descriptionShort>.</descriptionShort>
+        <hediffClass>HediffWithComps</hediffClass>
+        <defaultLabelColor>(0.55, 0.75, 0.35)</defaultLabelColor>
+        <initialSeverity>10</initialSeverity>
+        <comps>
+            <li Class="FCP.Core.HediffCompProperties_HostileAnimal">
+                <animalMentalState>FCP_Mental_State_Hostile_SporeCarrier</animalMentalState>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <MentalStateDef ParentName="BaseMentalState">
+        <defName>FCP_Mental_State_Hostile_SporeCarrier</defName>
+        <stateClass>FCP.Core.MentalState_HostileAnimal</stateClass>
+        <category>Aggro</category>
+        <minTicksBeforeRecovery>99999999</minTicksBeforeRecovery>
+        <inCaravanCanDo>true</inCaravanCanDo>
+        <recoverFromSleep>false</recoverFromSleep>
+        <recoverFromDowned>false</recoverFromDowned>
+        <recoverFromCollapsingExhausted>false</recoverFromCollapsingExhausted>
+    </MentalStateDef>
+
     <!--__________ Spore Carrier Infection __________-->
 
     <HediffDef>

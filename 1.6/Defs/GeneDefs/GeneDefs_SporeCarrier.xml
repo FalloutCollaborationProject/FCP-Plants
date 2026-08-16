@@ -16,12 +16,8 @@
             <li>HairStyle</li>
             <li>Fur</li>
         </exclusionTags>
-        <hairTagFilter>
-            <whitelist>true</whitelist>
-            <tags>
-                <li>Bald</li>
-            </tags>
-        </hairTagFilter>
+        <forcedHair>Bald</forcedHair>
+        <tattoosVisible>false</tattoosVisible>
         <forcedHeadTypes>
             <li>FCP_HeadType_SporeCarrier</li>
         </forcedHeadTypes>

@@ -23,6 +23,14 @@
         <requiredWorkTags />
         <initialWillRange>0~0</initialWillRange>
         <initialResistanceRange>0~0</initialResistanceRange>
+        <startingHediffs>
+            <li>
+                <def>FCP_Hediff_SporeCarrier_ForceHostile</def>
+            </li>
+            <li>
+                <def>FCP_Hediff_SporeCarrier_Spawn_Hostile</def>
+            </li>
+        </startingHediffs>
         <backstoryFiltersOverride>
             <li>
                 <categoriesChildhood>
