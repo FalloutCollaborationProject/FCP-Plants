@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ Spore Carrier Infection __________-->
+
+    <HediffDef>
+        <defName>FCP_Hediff_SporeInfection</defName>
+        <label>spore infection</label>
+        <description>A fungal infection spread by spore carrier plants. Left untreated, the spores will take root and the host's body will be consumed and remade into a spore carrier.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <defaultLabelColor>(0.55, 0.75, 0.35)</defaultLabelColor>
+        <isBad>true</isBad>
+        <makesSickThought>true</makesSickThought>
+        <tendable>true</tendable>
+        <comps>
+            <li Class="HediffCompProperties_TendDuration">
+                <baseTendDurationHours>18</baseTendDurationHours>
+                <severityPerDayTended>-0.3</severityPerDayTended>
+            </li>
+            <li Class="HediffCompProperties_Immunizable">
+                <severityPerDayNotImmune>0.22</severityPerDayNotImmune>
+                <immunityPerDaySick>0.3</immunityPerDaySick>
+                <severityPerDayImmune>-0.4</severityPerDayImmune>
+                <immunityPerDayNotSick>-0.05</immunityPerDayNotSick>
+            </li>
+            <li Class="FCP.Core.Hediffs.HediffCompProperties_ConvertPawnAfterFullSeverity">
+                <severityToTransform>1</severityToTransform>
+                <pawnKindDefs>
+                    <li>FCP_Pawnkind_SporeCarrier_Hostile</li>
+                </pawnKindDefs>
+                <factionDef>FCP_Faction_SporeCarrier</factionDef>
+                <isPlayer>false</isPlayer>
+                <transformSound>FCP_Sound_SporeCarrier_Growl</transformSound>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <label>minor</label>
+                <capMods>
+                    <li>
+                        <capacity>Breathing</capacity>
+                        <offset>-0.08</offset>
+                    </li>
+                </capMods>
+            </li>
+            <li>
+                <minSeverity>0.5</minSeverity>
+                <label>advancing</label>
+                <painOffset>0.1</painOffset>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <offset>-0.1</offset>
+                    </li>
+                    <li>
+                        <capacity>Breathing</capacity>
+                        <offset>-0.15</offset>
+                    </li>
+                </capMods>
+            </li>
+            <li>
+                <minSeverity>0.85</minSeverity>
+                <label>consuming</label>
+                <painOffset>0.25</painOffset>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <offset>-0.25</offset>
+                    </li>
+                    <li>
+                        <capacity>Manipulation</capacity>
+                        <offset>-0.2</offset>
+                    </li>
+                    <li>
+                        <capacity>Breathing</capacity>
+                        <offset>-0.25</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+    </HediffDef>
+
+</Defs>

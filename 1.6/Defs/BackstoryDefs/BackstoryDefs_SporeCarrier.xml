@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_SporeCarrier_Consumed</defName>
+        <identifier>FCP_Backstory_SporeCarrier_Consumed</identifier>
+        <slot>Adulthood</slot>
+        <title>Consumed</title>
+        <titleShort>Consumed</titleShort>
+        <description>[PAWN_nameDef] stopped being a person the day the spores took root. What's left moves and hungers, but nothing behind its eyes remembers who it was.</description>
+        <bodyTypeGlobal>FCP_BodyType_SporeCarrier</bodyTypeGlobal>
+        <workDisables>Social, Intellectual, Firefighting</workDisables>
+        <spawnCategories>
+            <li>FCP_Backstory_SporeCarrier</li>
+        </spawnCategories>
+        <possessions></possessions>
+    </BackstoryDef>
+
+</Defs>

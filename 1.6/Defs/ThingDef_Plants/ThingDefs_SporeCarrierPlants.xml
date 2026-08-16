@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ Spore Carrier Plants __________-->
+
+    <!-- Spore Carrier Plant (Wild) -->
+
+    <ThingDef ParentName="PlantBase">
+        <defName>FCP_Plant_SporeCarrier</defName>
+        <label>spore carrier plant</label>
+        <description>A fast-growing fungal growth that releases infectious spores into the air around it. Anyone who lingers nearby risks breathing them in.</description>
+        <statBases>
+            <MaxHitPoints>70</MaxHitPoints>
+            <Flammability>0.5</Flammability>
+        </statBases>
+        <ingestible>
+            <foodType>Plant</foodType>
+            <preferability>NeverForNutrition</preferability>
+        </ingestible>
+        <graphicData>
+            <texPath>Things/Plants/GlowingMushroom</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+            <shadowData>
+                <volume>(0.08, 0.2, 0.08)</volume>
+            </shadowData>
+        </graphicData>
+        <selectable>true</selectable>
+        <neverMultiSelect>false</neverMultiSelect>
+        <fillPercent>0.12</fillPercent>
+        <pathCost>14</pathCost>
+        <plant>
+            <immatureGraphicPath>Things/Plants/GlowingMushroom_Immature</immatureGraphicPath>
+            <fertilitySensitivity>0.15</fertilitySensitivity>
+            <growDays>1.5</growDays>
+            <visualSizeRange>0.5~0.9</visualSizeRange>
+            <topWindExposure>0.0</topWindExposure>
+            <wildClusterRadius>2</wildClusterRadius>
+            <wildClusterWeight>10</wildClusterWeight>
+            <wildOrder>5</wildOrder>
+            <purpose>Misc</purpose>
+            <dieFromToxicFallout>false</dieFromToxicFallout>
+        </plant>
+        <comps>
+            <li Class="FCP.Core.CompProperties_SporeInfector">
+                <radius>2</radius>
+                <tickInterval>2000</tickInterval>
+                <infectionChance>0.12</infectionChance>
+                <hediffDef>FCP_Hediff_SporeInfection</hediffDef>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Spore Carrier Nest (Buildable Hazard) -->
+
+    <ThingDef ParentName="PlantBase">
+        <defName>FCP_Plant_SporeCarrier_Turret</defName>
+        <label>spore carrier nest</label>
+        <description>A cultivated mass of spore carrier fungus, grown dense enough to blanket the surrounding area in infectious spores. Anything that gets close will breathe in far more than it can safely fight off.</description>
+        <statBases>
+            <MaxHitPoints>160</MaxHitPoints>
+            <Flammability>0.5</Flammability>
+        </statBases>
+        <ingestible>
+            <foodType>Plant</foodType>
+            <preferability>NeverForNutrition</preferability>
+        </ingestible>
+        <graphicData>
+            <texPath>Things/Plants/MutatedFern</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+            <drawSize>(1.4, 1.4)</drawSize>
+            <shadowData>
+                <volume>(0.2, 0.4, 0.2)</volume>
+            </shadowData>
+        </graphicData>
+        <selectable>true</selectable>
+        <neverMultiSelect>false</neverMultiSelect>
+        <fillPercent>0.3</fillPercent>
+        <pathCost>30</pathCost>
+        <plant>
+            <sowTags>
+                <li>Ground</li>
+            </sowTags>
+            <sowResearchPrerequisites>
+                <li>FCP_Research_Spore_Carrier_Program</li>
+            </sowResearchPrerequisites>
+            <sowMinSkill>6</sowMinSkill>
+            <immatureGraphicPath>Things/Plants/MutatedFern_Immature</immatureGraphicPath>
+            <fertilitySensitivity>0</fertilitySensitivity>
+            <growDays>3</growDays>
+            <visualSizeRange>0.9~1.3</visualSizeRange>
+            <topWindExposure>0.0</topWindExposure>
+            <purpose>Misc</purpose>
+            <dieFromToxicFallout>false</dieFromToxicFallout>
+        </plant>
+        <comps>
+            <li Class="FCP.Core.CompProperties_SporeInfector">
+                <radius>4</radius>
+                <tickInterval>1500</tickInterval>
+                <infectionChance>0.3</infectionChance>
+                <hediffDef>FCP_Hediff_SporeInfection</hediffDef>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

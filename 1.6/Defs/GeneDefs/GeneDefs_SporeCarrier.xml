@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <GeneDef>
+        <defName>FCP_Gene_SporeCarrier_Form</defName>
+        <label>spore carrier form</label>
+        <description>Carriers have a body consumed and reshaped by fungal growth, sprouting spore pods where a face and skin used to be.</description>
+        <iconPath>UI/Icons/Genes/Gene_SkinColorOverride</iconPath>
+        <displayCategory>Miscellaneous</displayCategory>
+        <displayOrderInCategory>500</displayOrderInCategory>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>1</biostatMet>
+        <selectionWeight>0</selectionWeight>
+        <skinColorOverride>(133, 148, 96)</skinColorOverride>
+        <exclusionTags>
+            <li>HairStyle</li>
+            <li>Fur</li>
+        </exclusionTags>
+        <hairTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>Bald</li>
+            </tags>
+        </hairTagFilter>
+        <forcedHeadTypes>
+            <li>FCP_HeadType_SporeCarrier</li>
+        </forcedHeadTypes>
+    </GeneDef>
+
+</Defs>

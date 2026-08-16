@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <SoundDef>
+        <defName>FCP_Sound_SporeCarrier_Growl</defName>
+        <context>MapOnly</context>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>FCP_SporeCarrier/SporeCarrierGrowl</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>25~25</volumeRange>
+                <pitchRange>0.95~1.05</pitchRange>
+                <distRange>0~55</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+</Defs>

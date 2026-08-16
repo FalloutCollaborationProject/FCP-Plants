@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <BodyTypeDef>
+        <defName>FCP_BodyType_SporeCarrier</defName>
+        <headOffset>(0.16, 0.34)</headOffset>
+        <bodyNakedGraphicPath>FCP_SporeCarrier/Bodies/Chest</bodyNakedGraphicPath>
+        <bodyDessicatedGraphicPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Male</bodyDessicatedGraphicPath>
+        <bodyGraphicScale>(1.15, 1.15)</bodyGraphicScale>
+    </BodyTypeDef>
+
+</Defs>

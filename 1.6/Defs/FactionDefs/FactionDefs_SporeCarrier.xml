@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <FactionDef ParentName="FactionBase">
+        <defName>FCP_Faction_SporeCarrier</defName>
+        <label>spore carriers</label>
+        <description>The remains of people consumed by fungal spores. They no longer remember who they were, driven only by the growth spreading through what's left of their minds. They attack anything living on sight.</description>
+        <pawnSingular>spore carrier</pawnSingular>
+        <pawnsPlural>spore carriers</pawnsPlural>
+        <categoryTag>Ancient</categoryTag>
+        <requiredCountAtGameStart>1</requiredCountAtGameStart>
+        <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+        <configurationListOrderPriority>2000</configurationListOrderPriority>
+        <displayInFactionSelection>false</displayInFactionSelection>
+        <canGenerateQuestSites>false</canGenerateQuestSites>
+        <fixedName>Spore Carriers</fixedName>
+        <factionIconPath>FCP_SporeCarrier/Heads/Head_south</factionIconPath>
+        <backstoryFilters>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_SporeCarrier</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFilters>
+        <raidsForbidden>true</raidsForbidden>
+        <raidCommonalityFromPointsCurve>
+            <points>
+                <li>(0, 0)</li>
+            </points>
+        </raidCommonalityFromPointsCurve>
+        <maxPawnCostPerTotalPointsCurve>
+            <points>
+                <li>(100,100)</li>
+                <li>(10000,10000)</li>
+            </points>
+        </maxPawnCostPerTotalPointsCurve>
+        <pawnGroupMakers>
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>1</commonality>
+                <options>
+                    <FCP_Pawnkind_SporeCarrier_Hostile>10</FCP_Pawnkind_SporeCarrier_Hostile>
+                </options>
+            </li>
+        </pawnGroupMakers>
+        <humanlikeFaction>true</humanlikeFaction>
+        <hidden>true</hidden>
+        <rescueesCanJoin>false</rescueesCanJoin>
+        <autoFlee>false</autoFlee>
+        <canUseAvoidGrid>false</canUseAvoidGrid>
+        <techLevel>Neolithic</techLevel>
+        <permanentEnemy>true</permanentEnemy>
+        <allowedMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Archist</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+        </allowedMemes>
+        <requiredMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Archist</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+        </requiredMemes>
+        <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+        <allowedArrivalTemperatureRange>-20~50</allowedArrivalTemperatureRange>
+        <modExtensions>
+            <li Class="FCP.Factions.FactionExtension_PermanentlyHostileTo">
+                <hostileFactionDefs>
+                    <li>PlayerColony</li>
+                </hostileFactionDefs>
+            </li>
+        </modExtensions>
+    </FactionDef>
+
+</Defs>

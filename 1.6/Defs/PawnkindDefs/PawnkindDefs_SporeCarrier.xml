@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <PawnKindDef>
+        <defName>FCP_Pawnkind_SporeCarrier_Hostile</defName>
+        <label>spore carrier</label>
+        <race>Human</race>
+        <combatPower>50</combatPower>
+        <xenotypeSet>
+            <xenotypeChances>
+                <FCP_Xenotype_SporeCarrier>1</FCP_Xenotype_SporeCarrier>
+            </xenotypeChances>
+        </xenotypeSet>
+        <useFactionXenotypes>false</useFactionXenotypes>
+        <minGenerationAge>20</minGenerationAge>
+        <maxGenerationAge>60</maxGenerationAge>
+        <allowOldAgeInjuries>false</allowOldAgeInjuries>
+        <itemQuality>Awful</itemQuality>
+        <apparelMoney>0</apparelMoney>
+        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+        <weaponMoney>0</weaponMoney>
+        <disallowedTraits />
+        <requiredWorkTags />
+        <initialWillRange>0~0</initialWillRange>
+        <initialResistanceRange>0~0</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_SporeCarrier</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+</Defs>

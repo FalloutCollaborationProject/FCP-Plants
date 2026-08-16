@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <XenotypeDef>
+        <defName>FCP_Xenotype_SporeCarrier</defName>
+        <label>spore carrier</label>
+        <iconPath>FCP_SporeCarrier/Heads/Head_south</iconPath>
+        <description>Once human, now a vessel for fungal spores. The infection consumes the mind first and the body second, leaving behind something that only resembles a person from a distance.</description>
+        <descriptionShort>Humans consumed and remade by spore infection.</descriptionShort>
+        <inheritable>true</inheritable>
+        <genes>
+            <li>Sterile</li>
+            <li>Beard_NoBeardOnly</li>
+            <li>FCP_Gene_SporeCarrier_Form</li>
+        </genes>
+    </XenotypeDef>
+
+</Defs>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <HeadTypeDef>
+        <defName>FCP_HeadType_SporeCarrier</defName>
+        <graphicPath>FCP_SporeCarrier/Heads/Head</graphicPath>
+        <gender>None</gender>
+        <randomChosen>false</randomChosen>
+    </HeadTypeDef>
+
+</Defs>
