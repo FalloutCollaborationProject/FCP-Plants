@@ -6,9 +6,9 @@
         <label>spore carrier</label>
         <race>Human</race>
         <combatPower>50</combatPower>
-        <xenotypeSet>
+        <xenotypeSet MayRequire="Ludeon.RimWorld.Biotech">
             <xenotypeChances>
-                <FCP_Xenotype_SporeCarrier>1</FCP_Xenotype_SporeCarrier>
+                <FCP_Xenotype_SporeCarrier MayRequire="Ludeon.RimWorld.Biotech">1</FCP_Xenotype_SporeCarrier>
             </xenotypeChances>
         </xenotypeSet>
         <useFactionXenotypes>false</useFactionXenotypes>

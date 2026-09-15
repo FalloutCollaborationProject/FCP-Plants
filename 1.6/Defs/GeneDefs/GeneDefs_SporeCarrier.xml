@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <GeneDef>
+    <GeneDef MayRequire="Ludeon.RimWorld.Biotech">
         <defName>FCP_Gene_SporeCarrier_Form</defName>
         <label>spore carrier form</label>
         <description>Carriers have a body consumed and reshaped by fungal growth, sprouting spore pods where a face and skin used to be.</description>

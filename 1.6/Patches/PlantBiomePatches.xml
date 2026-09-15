@@ -7,6 +7,8 @@
         <xpath>Defs/BiomeDef[defName="TemperateForest"]/wildPlants</xpath>
         <value>
             <FCP_Plant_Carrot_Flower>0.1</FCP_Plant_Carrot_Flower>
+            <FCP_Plant_Tarberry>0.2</FCP_Plant_Tarberry>
+            <FCP_Plant_SporeCarrier MayRequire="Ludeon.RimWorld.Biotech">0.05</FCP_Plant_SporeCarrier>
         </value>
     </Operation>
 
@@ -21,6 +23,8 @@
             <FCP_Plant_Nevada_Agave>0.4</FCP_Plant_Nevada_Agave>
             <FCP_Plant_Prickly_Pear_Cactus>0.85</FCP_Plant_Prickly_Pear_Cactus>
             <FCP_Plant_Xander_Root>0.2</FCP_Plant_Xander_Root>
+            <FCP_Plant_Glowing_Mushroom>0.15</FCP_Plant_Glowing_Mushroom>
+            <FCP_Plant_Mutated_Fern>0.15</FCP_Plant_Mutated_Fern>
         </value>
     </Operation>
 

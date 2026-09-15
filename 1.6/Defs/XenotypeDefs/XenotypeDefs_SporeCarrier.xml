@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <XenotypeDef>
+    <XenotypeDef MayRequire="Ludeon.RimWorld.Biotech">
         <defName>FCP_Xenotype_SporeCarrier</defName>
         <label>spore carrier</label>
         <iconPath>FCP_SporeCarrier/Heads/Head_south</iconPath>

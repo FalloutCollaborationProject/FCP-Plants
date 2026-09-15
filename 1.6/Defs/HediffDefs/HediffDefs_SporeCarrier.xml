@@ -21,8 +21,8 @@
     <HediffDef>
         <defName>FCP_Hediff_SporeCarrier_Spawn_Hostile</defName>
         <label>Hostile Spore Carrier</label>
-        <description>Hostile Spore Carrier.</description>
-        <descriptionShort>.</descriptionShort>
+        <description>This spore carrier has burst from its pod already enraged and will attack anyone who gets close.</description>
+        <descriptionShort>Erupted already enraged.</descriptionShort>
         <hediffClass>HediffWithComps</hediffClass>
         <defaultLabelColor>(0.55, 0.75, 0.35)</defaultLabelColor>
         <initialSeverity>10</initialSeverity>
